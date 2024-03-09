@@ -1,0 +1,144 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navbar-button > ul{
+    margin-left:60vw;
+}
+h1{
+    font-family: Oswald;
+}
+.slider-img{
+    height: 100vh;
+}
+.overTexthead{
+    margin-left: 7%;
+    position:absolute;
+    top: 20%;
+    font-weight: bolder;
+}
+.overTextbody{
+    margin-left: 8%;
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    font-size:22px;
+    color: white;
+}
+.overTextbody > p{
+    font-size: 1rem;
+}
+.overTextbody > button{
+    margin-top: 5%;
+    background:orangered;
+}
+.sec-img{
+    position: absolute; 
+    top: 5%; 
+    left: 55%;
+}
+.slider-3font{
+    color: black;
+}
+
+/* Grid */
+.main-box{
+    height: 46vh; 
+    width: 70vw; 
+    justify-content: space-around;
+}
+.icon-size{
+    font-size:5rem;
+}
+.item:hover{
+    background: rgb(199, 205, 234);
+}
+.gridHead{
+    font-size: 18px !important;
+}
+.fitem{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.grid{
+    margin: 0 15%;
+}
+.item>p{
+    font-size: 14px;
+}
+.item>i{
+    color: blue;
+}
+
+/* Cards */
+.cbody{
+    text-align: center;
+}
+
+.cbody > h5{
+    font-weight: 300;
+}
+.cbody > i {
+    margin: 0 10% 0 10% ;
+}
+.f{
+    color:darkblue ;
+}
+.t{
+    color: dodgerblue;
+}
+.l{
+    color: blue;
+}
+.m{
+    border: 2px solid rgb(231, 219, 219);
+}
+h4{
+    font-weight: 400;
+}
+
+/* Yellow Block */
+h1{
+    color: red;
+}
+h6{
+    font-weight: 400;
+}
+.yellop{
+    font-size: 0.7rem;
+}
+/* Event Schedule */
+
+/* Contact form */
+p > span {
+    color: rgb(25, 158, 202);
+}
+.fsize{
+    font-size: small;
+}
+
+/* Footer */
+footer{
+    color: white; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 3% 2% 2% 2%;
+}
+footer > p{
+    color: white;
+}
+.ft{
+    font-size: small;
+    margin-top:10px; 
+}
+.footerList{
+    list-style: none; 
+    color: yellow;
+}
+.footerList > li{
+    font-size: small;
+}
